@@ -198,6 +198,3 @@ async def Automation(commands : list[str]):
     async for result in TranslateAndExecute(commands):
         pass
     return True
-
-
-CloseApp('setting')
